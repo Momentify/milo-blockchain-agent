@@ -1,0 +1,44 @@
+{
+    "name": "milo-blockchain-service",
+    "version": "1.0.0",
+    "description": "Milo Blockchain Agent Service",
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "nodemon index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Momentify/milo-service.git"
+    },
+    "author": "Momentify",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/Momentify/milo-service/issues"
+    },
+    "homepage": "https://github.com/Momentify/milo-service#readme",
+    "dependencies": {
+        "@coinbase/cdp-agentkit-core": "^0.0.8",
+        "@coinbase/cdp-langchain": "^0.0.9",
+        "@coinbase/coinbase-sdk": "^0.13.0",
+        "@langchain/core": "^0.3.19",
+        "@langchain/langgraph": "^0.2.36",
+        "alchemy-sdk": "^3.5.0",
+        "axios": "^1.7.9",
+        "body-parser": "^1.20.3",
+        "cors": "^2.8.5",
+        "cross-env": "^7.0.3",
+        "dotenv": "^16.4.5",
+        "express": "^4.21.2",
+        "helmet": "^8.0.0",
+        "langchain": "^0.3.6",
+        "node-cache": "^5.1.2",
+        "node-fetch": "^3.3.2",
+        "winston": "^3.17.0",
+        "zod": "^3.24.1"
+    },
+    "overrides": {
+        "@langchain/core": "^0.3.19"
+    }
+}
